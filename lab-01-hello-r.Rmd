@@ -10,6 +10,8 @@ output: github_document
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
 library(datasauRus)
+install.packages("tidyverse")
+install.packages("datasauRus")
 ```
 
 ## Exercises
