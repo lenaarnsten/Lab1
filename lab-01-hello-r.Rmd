@@ -110,5 +110,11 @@ To add R chunks either type out the backticks, curly braces, and the letter `r` 
 dino_data <- datasaurus_dozen %>%
   filter(dataset == "dino")
   
+  dino_data <- datasaurus_dozen %>%
+  filter(dataset == "dino")
 
+ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
+  geom_point()
+  ```{r}
 
+```
